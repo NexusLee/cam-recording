@@ -1,0 +1,14 @@
+{
+  "name": "webrtc",
+  "version": "0.0.0",
+  "description": "Stream microphone pcm data to server and save on wav file.",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.4",
+    "websocket": "^1.0.24"
+  },
+  "author": "Paddington"
+}
