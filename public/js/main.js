@@ -43,7 +43,6 @@ var ws = new WebSocket('ws://' + window.location.hostname + ':' + window.locatio
 //var ws = new WebSocket("ws://localhost:9000");
 ws.onopen = function (e) {
   console.log('Connection to server opened');
-  ws.send("111111111")
 }
 
 var constraints = {
